@@ -1,0 +1,25 @@
+
+https://whatis.techtarget.com/definition/Google-dork-query
+
+A Google dork query, sometimes just referred to as a dork, is a search string that uses advanced search operators to find information that is not readily available on a website.
+
+Google dorking, also known as Google hacking, can return information that is difficult to locate through simple search queries. That description includes information that is not intended for public viewing but that has not been adequately protected. 
+
+As a passive attack method, Google dorking can return usernames and passwords, email lists, sensitive documents, personally identifiable financial information (PIFI) and website vulnerabilities. That information can be used for any number of illegal activities, including cyberterrorism, industrial espionage, identity theft and cyberstalking.
+
+A search parameter is a limitation applied to a search. Here are a few examples of advanced search parameters:
+
+    site: returns files located on a particular website or domain.
+    filetype: followed (without a space) by a file extension returns files of the specified type, such as DOC, PDF, XLS and INI. Multiple file types can be searched for simultaneously by separating extensions with “|”.
+    inurl: followed by a particular string returns results with that sequence of characters in the URL.
+    intext: followed by the searcher’s chosen word or phrase returns files with the string anywhere in the text.
+
+Multiple parameters can be used, for example, to search for files of a certain type on a certain website or domain. The Public Intelligence website provides this example:
+
+“sensitive but unclassified” filetype:pdf site:publicintelligence.net
+
+Those search parameters return PDF documents on that website’s servers with the string “sensitive but unclassified” anywhere in the document text.
+
+Access to internal documents can yield further sensitive information. For example, document metadata often contains more information than the author is aware of, such as revision history, deletions, dates and author / updater names.  Because an intruder with the requisite know-how and / or tools can access such information, it’s a good practice to ensure that it is actually removed from documents before they are published or shared. The practice of document sanitization is designed to make sure that only the intended information can be accessed.
+
+In August 2014, the United States Department of Homeland Security (DHS), the FBI and the National Counterterrorism Center issued a bulletin warning agencies to guard against the potential for Google dorking on their sites. One of the first intrusion prevention measures proposed is to conduct Google dorking expeditions using likely attack parameters to discover what type of information an intruder could access.
