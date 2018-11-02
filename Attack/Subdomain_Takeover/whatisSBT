@@ -1,0 +1,21 @@
+https://www.hacker101.com/vulnerabilities/subdomain_takeover.html
+
+Subdomain takeover vulnerabilities occur when a subdomain (subdomain.example.com) is pointing to a service (e.g. GitHub pages, Heroku, etc.) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that subdomain. For example, if subdomain.example.com was pointing to a GitHub page and the user decided to delete their GitHub page, an attacker can now create a GitHub page, add a CNAME file containing subdomain.example.com, and claim subdomain.example.com.
+
+Common sites that might have expired subscriptions:
+
+https://www.heroku.com/
+https://github.com
+https://tumblr.com
+https://shopify.com
+https://squarespace.com
+https://salesforce.com
+https://aws.amazon.com
+https://unbounce.com
+https://uservoice.com
+https://surveygizmo.com
+https://fastly.com
+https://zendesk.com
+https://instapage.com
+https://dyn.com
+

@@ -1,0 +1,23 @@
+https://www.owasp.org/index.php/Web_Application_Firewall
+
+A web application firewall (WAF) is an application firewall for HTTP applications. It applies a set of rules to an HTTP conversation. Generally, these rules cover common attacks such as cross-site scripting (XSS) and SQL injection.
+
+While proxies generally protect clients, WAFs protect servers. A WAF is deployed to protect a specific web application or set of web applications. A WAF can be considered a reverse proxy.
+
+WAFs may come in the form of an appliance, server plugin, or filter, and may be customized to an application. The effort to perform this customization can be significant and needs to be maintained as the application is modified. 
+
+#Solutions around a WAF
+
+Find Origin
+Find Dev
+
+dev.target.com
+stage.target.com
+ww1/ww2/ww3.domain.com
+www.domain.jp/uk/co.uk/etc
+
+Examples of WAFs:
+
+https://cloudflare.com
+https://akamai.com
+https://twitter.com/jhaddix/status/908044285437726726?lang=en

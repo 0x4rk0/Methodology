@@ -1,0 +1,17 @@
+#Tools
+
+https://gist.github.com/jhaddix/78cece26c91c6263653f31ba453e273b
+https://medium.com/bugbountywriteup/the-design-and-implementation-of-ssrf-attack-framework-550e9fda16ea
+
+#Example Protocols
+
+    file:// — Accessing local filesystem
+    http:// — Accessing HTTP URLs
+    ftp:// — Accessing FPP URLs
+    php:// — Accessing values I/O stream
+    data:// — Data Protocol(RFC 2397)
+    phar:// — PHP Archive
+    gopher:// — A protocol designed for dictionary based menu
+    dict:// — Dictionary Protocol
+
+

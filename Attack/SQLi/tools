@@ -1,0 +1,12 @@
+#SQLi Prevention
+
+https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet
+https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet
+https://www.owasp.org/index.php/Reviewing_Code_for_SQL_Injection
+
+#SQLi Attacking
+
+https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)
+http://sqlmap.org/
+https://github.com/codingo/NoSQLMap
+https://github.com/Neohapsis/bbqsql
